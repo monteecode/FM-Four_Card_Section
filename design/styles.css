@@ -1,3 +1,25 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 200;
+}
+
+#firstHeading {
+  font-weight: 200;
+}
+
+#secondHeading {
+  font-weight: 600;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
