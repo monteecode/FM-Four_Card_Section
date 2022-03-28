@@ -81,33 +81,8 @@ p {
   font-weight: 600;
 }
 
-/* .card {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-} */
-
-/* .leftSide {
-  grid-row-start: 2;
-  grid-column-start: 1;
-}
-
-.rightSide {
-  grid-row-start: 2;
-  grid-column-end: 4;
-}
-
-.middleTop {
-  grid-row-start: 1;
-  grid-column-end: 3;
-}
-
-.middleBottom {
-  grid-row-start: 3;
-  grid-column-end: 3;
-} */
-
 .card {
-  box-shadow: 1px 1px 10px lightgray;
+  box-shadow: 1px 1px 30px lightgray;
   border-radius: 10px;
   padding: 2em;
 }
@@ -146,6 +121,10 @@ p {
 .leftSide,
 .rightSide {
   margin-top: 10em;
+}
+
+footer {
+  margin-top: 100px;
 }
 
 .attribution {
