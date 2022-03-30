@@ -9,19 +9,6 @@
   --veryLightGray: hsl(0, 0%, 98%);
   --transition-speed: 600ms;
 }
-/* 
-## Colors
-
-- Red: hsl(0, 78%, 62%)
-- Cyan: hsl(180, 62%, 55%)
-- Orange: hsl(34, 97%, 64%)
-- Blue: hsl(212, 86%, 64%)
-
-### Neutral
-
-- Very Dark Blue: hsl(234, 12%, 34%)
-- Grayish Blue: hsl(229, 6%, 66%)
-- Very Light Gray: hsl(0, 0%, 98%) */
 
 body {
   font-family: "Poppins", sans-serif;
@@ -53,7 +40,7 @@ header p {
 section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 40%);
+  /* grid-template-rows: repeat(2, 40%); */
 }
 
 article {
@@ -133,4 +120,19 @@ footer {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 799px) {
+  section {
+    grid-template-columns: repeat(1, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+  }
+  .rightSide {
+    margin-left: 0;
+    margin-top: 6em;
+  }
+
+  .leftSide {
+    margin: 5em 0 5em 0;
+  }
 }
